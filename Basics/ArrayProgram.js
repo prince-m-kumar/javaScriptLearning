@@ -1,0 +1,30 @@
+let arrayLength = 5;
+let arr1 = [];
+let arr2 = Array(arrayLength);
+console.log(arr1.length);
+console.log(arr2.length);
+let arr3 = ["A", true,2];
+console.log(arr3[1]);
+console.log(arr3[0]);
+arr1[0]= "value of index 0";
+console.log(arr1[0]);
+console.log(arr1[1]);
+console.log("Array---------Method----");
+console.log("--Push and Pop--");
+let array1 = ["A", true,2];
+console.log(array1.push("new value"));
+console.log(array1);
+console.log(array1.pop());//Remove last value
+console.log(array1);
+console.log("--Shift and unshift--");
+console.log(array1.unshift("new value"));
+console.log(array1);
+console.log(array1.shift());//Remove front/first value
+console.log(array1);
+console.log("--Concate array--");
+let array2 = ["B", false, 3];
+let newArray = array1.concat(array2);
+let newArray2 = array2.concat(array1);
+console.log(newArray);
+console.log(newArray2);
+console.log(array2);
